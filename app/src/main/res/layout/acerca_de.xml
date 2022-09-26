@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@drawable/fondo">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_marginTop="35dp"
+        app:srcCompat="@drawable/verito"
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_marginTop="35dp"
+        app:srcCompat="@drawable/isma" />
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/tvNombre2"
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:text="INTEGRANTES:
+   -Veronica Yaneth Garcia Perez
+           -Elias Ismael Santos Panameño"
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ITCA - FEPADE
+--Modulo:Desarrollo de aplicaciones usando tecnologías emergentes--"
+            android:textStyle="bold"
+            android:textColor="#03A9F4"
+            android:textSize="17sp"
+            />
+
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_gravity="center"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:onClick="bsalir"
+        android:text="salir"/>
+
+
+</LinearLayout>
